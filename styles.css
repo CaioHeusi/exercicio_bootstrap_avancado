@@ -1,0 +1,117 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-image {
+    height: 400px;
+    object-fit: cover;
+}
+
+.card {
+    background-color: #1c1c1c;
+    color: #fff;
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card img {
+    height: 300px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #e50914;
+    font-weight: bold;
+}
+
+.section-title {
+    color: #e50914;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #1c1c1c;
+}
+
+.form-group label {
+    color: #fff;
+}
+
+.form-check-label {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.form-check-input {
+    display: none;
+}
+
+.slider {
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    position: relative;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 1px;
+    left: 1px;
+    transition: transform 0.2s;
+}
+
+.form-check-input:checked + .form-check-label .slider {
+    background-color: #2196F3;
+}
+
+.form-check-input:checked + .form-check-label .slider:before {
+    transform: translateX(20px);
+}
+
+.alert-danger {
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    background-color: #e50914;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #bf0810;
+}
+
+.btn-block {
+    margin-top: 10px;
+}
